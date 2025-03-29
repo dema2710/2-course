@@ -1,5 +1,5 @@
 [project]
-name = "25-02-25"
+name = "2-course"
 version = "0.1.0"
 description = ""
 authors = [
@@ -21,7 +21,7 @@ dependencies = [
 ]
 
 [tool.poetry]
-packages = [{include = "25"}]
+package-mode = false
 
 [tool.poetry.dependencies]
 python = ">=3.13,<4.0"
