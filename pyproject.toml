@@ -1,0 +1,31 @@
+[project]
+name = "25-02-25"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "demch",email = "md2710@ukr.net"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pytest (>=8.3.5,<9.0.0)",
+    "flake8 (>=7.1.2,<8.0.0)",
+    "isort (>=6.0.1,<7.0.0)",
+    "black (>=25.1.0,<26.0.0)",
+    "pyotp (>=2.9.0,<3.0.0)",
+    "passlib[bcrypt] (>=1.7.4,<2.0.0)",
+    "qrcode (>=8.0,<9.0)",
+    "pillow (>=11.1.0,<12.0.0)",
+    "pyjwt (>=2.10.1,<3.0.0)",
+    "psycopg2 (>=2.9.10,<3.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "25"}]
+
+[tool.poetry.dependencies]
+python = ">=3.13,<4.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
