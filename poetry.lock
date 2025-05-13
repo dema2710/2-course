@@ -434,6 +434,23 @@ files = [
 ]
 
 [[package]]
+name = "pika"
+version = "1.3.2"
+description = "Pika Python AMQP Client Library"
+optional = false
+python-versions = ">=3.7"
+groups = ["main"]
+files = [
+    {file = "pika-1.3.2-py3-none-any.whl", hash = "sha256:0779a7c1fafd805672796085560d290213a465e4f6f76a6fb19e378d8041a14f"},
+    {file = "pika-1.3.2.tar.gz", hash = "sha256:b2a327ddddf8570b4965b3576ac77091b850262d34ce8c1d8cb4e4146aa4145f"},
+]
+
+[package.extras]
+gevent = ["gevent"]
+tornado = ["tornado"]
+twisted = ["twisted"]
+
+[[package]]
 name = "pillow"
 version = "11.1.0"
 description = "Python Imaging Library (Fork)"
@@ -777,4 +794,4 @@ zstd = ["zstandard (>=0.18.0)"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.13,<4.0"
-content-hash = "65cf38fd39b88ffef98c50c7a449338ac92ad7a1c485a1b85ec6c2076bdaafe2"
+content-hash = "1c35a18121d9f286d7ca50150df14012783e9605d53ef68fc3ecd8cdc8e0a389"
